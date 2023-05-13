@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #293264;
+}
+
+main {
+    gap: 1em;
+    flex-direction: column;
+    text-align: left;
+    padding: 2em 4.5em;
+    height: auto;
+}
+
+main h1 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.checked {
+    display: flex;
+    gap: 1em;
+}
+
+.checked h2,
+.play-again-button {
+    margin: 0;
+    align-self: center;
+}
+
+.check-answers-button {
+    margin: 1.25em auto 0;
+}
+
+.check-answers-button,
+.play-again-button {
+    font-family: karla;
+    background-color: #4D5B9E;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    padding: 0.5em 2em;
+    cursor: pointer;
+}
+
+.answers {
+    display: flex;
+    gap: 0.8em;
+    margin-bottom: 1em;
+}
+
+.answersButton {
+    font-size: 0.64em;
+    font-family: karla;
+    font-weight: 500;
+    color: #4D5B9E;
+    border-radius: 8px;
+    padding: 0.25em 0.6em;
+    cursor: pointer;
+    border: 0.8px solid #4D5B9E;
+    background-color: #F5F7FB;
+}
+
+.checked-answers {
+    border: none;
+    background-color: #94D7A2;
+}
+
+.selected {
+    border: none;
+    background-color: #D6DBF5;
+}
+
+.correct-answer {
+    border: none;
+    background-color: #F8BCBC; 
+}
+
+main,
+.quiz-intro-section {
+    display: flex;
+    justify-content: center;
+    background-color: #F5F7FB;
+    max-width: 550px;
+    width: 100vw;
+}
+
+.quiz-intro-section {
+    max-height: 550px;
+    height: 100vh;
+    align-items: center; 
+}
+
+.quiz-intro {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    text-align: center;
+}
+
+.quiz-intro h1,
+.quiz-intro p {
+    margin: 0
+}
+
+.startQuizBtn {
+    font-family: 'Karla', sans-serif;
+    color: #ffffff;
+    background-color: #4D5B9E;
+    border: none;
+    border-radius: 15px;
+    padding: 1em 0;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+hr {
+    border: 1px solid #DBDEF0;
+}
+
+.startQuizBtn:hover,
+.checkAnswersBtn:hover {
+    background-color: #293264;
+}
