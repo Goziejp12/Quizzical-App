@@ -88,7 +88,7 @@ main,
     display: flex;
     justify-content: center;
     background-color: #F5F7FB;
-    max-width: 550px;
+    /* max-width: 550px; */
     width: 100vw;
 }
 
