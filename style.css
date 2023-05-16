@@ -138,30 +138,25 @@ hr {
 }
 
 @media (min-width: 768px) {
-    main h1 {
-        font-size: 1.5rem;
-        width: 100%;
-    }
-
-    .checked h2 {
+    main h1,
+    .checked h2,
+    .check-answers-button,
+    .play-again-button {
         font-size: 1.5rem;
     }
 
     .check-answers-button,
     .play-again-button {
-        font-size: 1.5rem;
         padding: 0.5em 2.5em;
     }
 
-    .answers {
+    main h1,
+    .answers, 
+    hr {
         width: 100%;
     }
 
     .answersButton {
         font-size: 1rem;
-    }
-
-    hr {
-        width: 100%;
     }
 }
