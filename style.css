@@ -22,6 +22,8 @@ main {
 main h1 {
     font-size: 1rem;
     font-weight: 700;
+    max-width: 480px;
+    width: 70vw;
 }
 
 .checked {
@@ -54,6 +56,9 @@ main h1 {
     display: flex;
     gap: 0.8em;
     margin-bottom: 1em;
+    max-width: 480px;
+    width: 60vw;
+    /* flex-wrap: wrap; */
 }
 
 .answersButton {
@@ -87,7 +92,7 @@ main,
 .quiz-intro-section {
     display: flex;
     justify-content: center;
-    background-color: #F5F7FB;
+    /* background-color: #F5F7FB; */
     /* max-width: 550px; */
     width: 100vw;
 }
@@ -128,4 +133,27 @@ hr {
 .startQuizBtn:hover,
 .checkAnswersBtn:hover {
     background-color: #293264;
+}
+
+@media (min-width: 768px) {
+    main h1 {
+        font-size: 1.5rem;
+        max-width: fit-content;
+        width: 100vw;
+    }
+
+    .check-answers-button,
+    .play-again-button {
+        font-size: 1.5rem;
+        padding: 0.5em 2.5em;
+    }
+
+    .answers {
+        max-width: fit-content;
+        width: 100vw;
+    }
+
+    .answersButton {
+        font-size: 1rem;
+    }
 }
